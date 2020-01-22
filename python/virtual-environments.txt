@@ -1,0 +1,18 @@
+#Python 2
+
+pip install virtualenv
+virtualenv -p $(which python2.7) testenv
+source testenv/bin/activate
+python -V
+python -m pip install --upgrade pip
+pip --version
+deactivate
+
+
+#Python 3 
+python3 -m pip install --upgrade pip
+pip3 install virtualenv
+virtualenv -p $(which python3) envname
+source envname/bin/activate
+deactivate
+
