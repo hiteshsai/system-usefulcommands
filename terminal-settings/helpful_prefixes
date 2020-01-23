@@ -1,0 +1,10 @@
+# for changing shell to bash
+
+chsh -s /bin/bash
+
+# for changing it to zsh
+
+chsh -s /bin/zsh
+
+And for customizations of terminal 
+https://gist.github.com/kevin-smets/8568070
